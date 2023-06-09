@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="content">
+        <aside>
+            <h1 class="slideInLeft"> <span>We</span> Form</h1>
+            <img src="./img/dog.png" alt="">
+            
+        </aside>
+
+        <main>
+
+            <header>
+                <a href="index.html"> <i class="fa-solid fa-backward "></i></i> </i></a>
+                <h2>Nova <span>entidade</span></h2>
+            </header>
+            
+
+            <form>
+                <label for="input-name">Nome</label>
+                <input type="text" id="nome">
+
+                <label for="input-field">Campo de atuação</label>
+                <select id="input-field">
+                    <option value="">Selecione uma opção</option>
+                    <option value="abrigo">Abrigo de animais</option>
+                    <option value="alimentacao">Alimentação</option>
+                    <option value="doacoes">Doações para animais</option>
+                </select>
+
+
+                <div class="points">
+                    <label for="input-points">Pontos de coleta</label>
+                    <input type="text" id="pontosColeta">
+
+                </div>
+                
+
+            </form>
+
+            <div class="actions">
+                <button id="cadastrar" onclick="submitForm(event)"> Cadastrar </button>
+                <div id="message"></div>
+        </main>
+        
+        
+        </div>
+
+        <div class="imgpatas">
+        <img src="./img/patas.png" alt="">
+        </div>
+        
+        <script src="script.js"></script>
+
+</body>
+</html>
